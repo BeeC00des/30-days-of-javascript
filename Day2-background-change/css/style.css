@@ -1,0 +1,42 @@
+html,body{
+   height: 100%;
+   width:100%;
+   margin:0px;
+   padding:0px;
+}
+
+#main-container{
+   height: 100vh; 
+   position: relative;
+   background-color: bisque;
+}
+
+.colorIdBox{
+   border: 1px solid rgba(19, 2, 2, 0.9);
+   padding:7px 20px;
+   border-radius: 7px;
+   color:#fff;
+   background-color: #000;
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+p {
+   font-size:16px;
+}
+.btnBox{
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#btn-click{
+   border: 1px solid rgba(19, 2, 2, 0.9);
+   padding:10px 20px;
+   border-radius: 5px;
+   font-size:16px;
+}
+
