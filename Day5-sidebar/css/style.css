@@ -1,0 +1,54 @@
+
+body{
+   Background-color:#F2F5FC;
+}
+#main{
+   transition: margin-left 2s;
+   padding:20px;
+}
+
+.sideNav {
+   height: 100%;
+   width: 0;
+   position: fixed; 
+   z-index: 1; 
+   top: 0;
+   left: 0;
+   background-color: rgb(17, 12, 12); 
+   overflow-x: hidden;
+   padding-top: 50px; 
+   transition: 0.5s; 
+ }
+ 
+ /* The sidebar links */
+ .sideNav a {
+   padding: 10px 10px 10px 24px;
+   font-size: 16px;
+   color: #856ac4;
+   text-decoration: none;
+   display: block;
+   transition: 0.3s;
+ }
+ 
+ .sideNav a:hover {
+   color: #f1f1f1;
+ }
+ 
+ /* Position and style the close button (top right corner) */
+ .sideNav .btnclose {
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 36px;
+   margin-left: 50px;
+ }
+
+ .openbtn{
+    font-size: 16px;
+    cursor:pointer;
+    padding:12px;
+    color:black;
+    background-color:#fff;
+    border:none;
+ }
+ 
