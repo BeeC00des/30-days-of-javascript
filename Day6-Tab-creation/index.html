@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tab Effect</title>
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   <div id="main">
+      <div class="header">
+         <h1>About me</h1>
+         <h3>I'm a frontend web developer, passionate about creating great product!</p>
+      </div>
+      <div class="container">
+         <div class="image"></div>
+         <div class="tab-section">
+            <div class="tab-nav">
+               <button class="tabLink" onclick="openData(event, 'History')">History</button>
+               <button class="tabLink" onclick="openData(event, 'Vision')">Vision</button>
+               <button class="tabLink" onclick="openData(event, 'Goal')">Goal</button>
+            </div>
+            <div class="tab-content">
+               <div id="History" class="tabContent">
+                  <h3> History</h3>
+                  <p>2019, i officially commit myself to frontend development. My undergraduate days gave me an proper tech exposure. I'm grateful to my colleagues and mentors.</p>
+               </div>
+               <div id="Vision" class="tabContent">
+                  <h3> Vision</h3>
+                  <p>My vision is to be value contributor to software development</p>
+               </div>
+               <div id="Goal" class="tabContent">
+                  <h3> Goal</h3>
+                  <p>My Goal is to get better at coding daily</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      
+   </div>
+   <script src="./script/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+body{
+   Background-color:#F2F5FC;
+}
+
+#main{
+   margin:auto;
+   width:80%;
+}
+
+.header{
+   padding:20px;
+   text-align: center;
+}
+
+.container{
+   width:80%;
+   height:250px;
+   margin: 40px auto 0;
+   display: flex;
+   justify-content:space-between;
+}
+.image{
+   width:48%;
+   height:inherit;
+   border-radius: 10px;
+   background-image: url(../image/card-bg-2.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.tab-section{
+   width:48%;
+   height:inherit;
+   border-radius: 10px;
+   background-color: #FEFEFC;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.tab-nav{
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   background-color:#DAE3EC;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.tab-nav button{
+   border:none;
+   outline: none;
+   cursor: pointer;
+   padding:12px 12px;
+   transition: 0.3s;
+   font-size: 18px;
+   background: #DAE3EC;
+   color:#000;
+}
+
+.tab-nav button:hover {
+   background-color: #FEFEFC;
+ }
+
+/* click on active is not working */
+/* button.active{ */
+   /* background-color: #FEFEFC !important;  */
+/* } */ 
+
+.tabContent{
+  display: none;
+  padding: 5px 20px;
+}
+
+@media only screen and (max-width: 768px) {
+   .container{
+      width: 100%;
+      display: block; 
+      margin: 20px auto 0;
+   }
+   .image{
+      width:100%;
+      margin-bottom:20px;
+   }
+   .tab-section{
+      width:100%;
+   }
+ }
