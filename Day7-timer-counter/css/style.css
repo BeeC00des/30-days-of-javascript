@@ -1,0 +1,104 @@
+body{
+   padding:0px;
+   margin:0px;
+   Background-color:#F2F5FC;
+}
+
+.header{
+   height:100px;
+   width:100%;
+   background-color: #000;
+}
+
+#main{
+   margin:auto;
+   width:80%;
+}
+
+
+.container{
+   width:80%;
+   height:250px;
+   margin: 50px auto;
+   display: flex;
+   justify-content:space-between;
+}
+
+.image{
+   width:45%;
+   height:inherit;
+   border-radius: 10px;
+   background-image: url(../image/iphone-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.counter-section{
+   width:45%;
+   height:inherit;
+}
+.content-header{
+   font-weight:bold;
+   font-size:28px;
+   color:#306FA7;
+   margin: 0px;
+}
+.sub-text{
+   padding:10px 0px;
+   font-size: 15px;
+   color:#313e50;
+}
+
+.main-text{
+   font-size:16.5px;
+   padding:15px 0px;
+   line-height: 20px;
+}
+.content{
+   padding:8px 15px;
+}
+
+.countdown-box{
+   padding-left:10px;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+}
+
+.timer-box{
+   width:60px;
+   /* height:30px; */
+   margin:5px;
+   color:#fff;
+   font-size: 14px;
+   text-align: center;
+   background-color: #112B41; 
+   padding:12px 0px;
+}
+
+p{
+   margin:0px;
+}
+
+.countText{
+   color:#fff;
+   font-size: 18px;
+   /* padding:5px 0px; */
+}
+@media only screen and (max-width: 768px) {
+   .container{
+      width: 100%;
+      display: block; 
+      margin: 10px auto 0;
+   }
+   .image{
+      width:100%;
+      margin-bottom:20px;
+   }
+   .counter-section{
+      width:100%;
+      padding: 0px;
+   }
+ }
