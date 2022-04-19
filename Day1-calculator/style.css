@@ -1,0 +1,95 @@
+body{
+   width:100%;
+   height: 100vh; 
+   margin: 0;
+   padding:0;
+}
+
+.container{
+    background-color:#F4F6F8;
+    height:inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box{
+    height:500px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+
+.display-box{
+    height:120px;
+    width:280px;
+    border:1px solid white;
+    font-size: 26px; 
+    margin: 15px auto;
+    color:white;
+}
+#input, #output{
+    padding:10px;
+}
+
+#demo{
+    color:white;
+    font-size:24px;
+}
+
+.light-mode{
+    height:30px;
+    width:280px;
+    border:1px solid white;
+    margin: 5px auto;
+}
+
+.operation-container{
+    height:300px;
+    width:280px;
+    margin: auto;
+    display: flex;   
+}
+
+.punch-number{
+    width:75%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.num , #lastChar{
+    border: 1px solid rgba(243, 235, 235, 0.8);
+    padding: 10px;
+    font-size: 21px;
+    text-align: center;
+    color:#fff;
+    border-radius: 10px;
+    margin:5px;
+}
+
+.operators{
+    width:24%;
+    display: block;
+}
+
+.sign{
+    border: 1px solid rgba(243, 235, 235, 0.8);
+    padding: 11px;
+    font-size: 21px;
+    text-align: center;
+    color:#fff;
+    border-radius: 10px;
+    margin: 6px 5px 10px 5px;
+}
+
+#result{
+    border: 1px solid rgba(243, 235, 235, 0.8);
+    padding: 12px;
+    font-size: 21px;
+    text-align: center;
+    color:#fff;
+    border-radius: 10px;
+    margin: 6px 5px 8px 5px;
+}
+
